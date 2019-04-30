@@ -219,7 +219,7 @@ export default {
      *   Format of the items, possible values are: json, csv, xlsx, html, xml and rss.
      * @param {Number} [options.offset=0]
      *   Number of array elements that should be skipped at the start.
-     * @param {Number} [options.limit=100000]
+     * @param {Number} [options.limit=250000]
      *   Maximum number of array elements to return.
      * @param {Number} [options.desc]
      *   If `true` then the objects are sorted by `createdAt` in descending order.
